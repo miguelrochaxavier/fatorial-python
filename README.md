@@ -2,6 +2,12 @@
     <h1>Calculadora de Fatorial em Python</h1>
 </p>
 
+<br/>
+
+<p aling="center">
+    <img src="/assests/screenshot1.PNG" alt="#">
+</p>
+
 ## 🚀 Tecnologias
 
 <p align="left"> 

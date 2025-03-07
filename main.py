@@ -20,5 +20,27 @@ if esc == 1 :
     x = int(input('Digite seu numero aqui : '))
     print(f'O fatorial de {x}! é {fatorial(x)}')
 
+elif esc == 2 :
+
+    def fatorialDuplo(n) :
+        if n == 0 or n == 1 :
+            return 1
+        else : 
+            return n * fatorialDuplo (n-2)
+    
+    x = int(input('Digite seu numero aqui : '))
+    print(f'O fatorial de {x}! é {fatorialDuplo(x)}')
+
+
+else :
+
+    def fatorialTripla(n) :
+        if n == 0 or n == 1 :
+            return 1 
+        else : 
+            return n * fatorialTripla (n-3)
+        
+    x = int(input('Digite seu numero aqui : '))
+    print(f'O fatorial de {x}! é {fatorialTripla(x)}')
 
 # Colocar calculadora de fração com uma icognita divindo por partes, k = parte de cima da fração & l = parte de baixo da fração

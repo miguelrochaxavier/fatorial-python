@@ -1,6 +1,3 @@
-# Fatorial é igual a um numero multiplicado ate chegar ao 1. 
-# Exemplo : 3! = 3.2.1!
-
 import math
 
 print('Calculadora de fatorial')

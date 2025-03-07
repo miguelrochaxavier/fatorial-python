@@ -1,13 +1,15 @@
-import customtkinter as ctk
+from customtkinter import *
+from PIL import Image
 
-ctk.set_appearance_mode("dark")
-ctk.set_default_color_theme("blue")
+app = CTk()
+app.geometry('600x500')
+app.resizable(0,0)
 
-app = ctk.CTk()
-app.title("Teste CustomTkinter")
-app.geometry("400x300")
+CTkLabel(master=app, text="Calculadora Fatorial com Python e Tkinter", font=("Arial Bold", 20), justify="left").pack(anchor="w", pady=(43, 18), padx=(56,0))
+stats_frame = CTkFrame(master=app, fg_color="transparent")
+stats_frame.pack( padx=(54, 0), pady=(18, 0), anchor="nw")
 
-label = ctk.CTkLabel(app, text="Olá, CustomTkinter!")
-label.pack(pady=20)
+#btn = CTkButton(master=app, text='Clique aqui')
+#btn.place(relx=0.2, rely=0.8, anchor='center')
 
 app.mainloop()

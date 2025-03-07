@@ -21,13 +21,13 @@ CTkLabel(master=app, text="Calculadora Fatorial com Python e Tkinter", font=("Ar
 stats_frame = CTkFrame(master=app, fg_color="transparent")
 stats_frame.pack( padx=(54, 0), pady=(18, 0), anchor="nw")
 
-btn = CTkComboBox(master=app, values=['1-Fatorial Simples', '2-Fatorial Dupla', '3-Fatorial Tripla'],)
+btn = CTkComboBox(master=app, values=['1-Fatorial Simples', '2-Fatorial Dupla', '3-Fatorial Tripla'], command=fatorial_select)
 btn.place(relx=0.2, rely=0.3, anchor='center')
 
-entry = CTkEntry(master=app, placeholder_text='Escreva aqui...', width=300)
+entry = CTkEntry(master=app, placeholder_text='Escreva aqui...', width=300,)
 entry.place(relx=0.33, rely=0.4, anchor='center')
 
-btn = CTkButton(master=app, text='Clique aqui')
+btn = CTkButton(master=app, text='Clique aqui', command=fatorial_number)
 btn.place(relx=0.2, rely=0.5, anchor='center')
 
 app.mainloop()

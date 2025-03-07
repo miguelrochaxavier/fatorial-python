@@ -26,7 +26,7 @@ elif esc == 2 :
             return n * fatorialDuplo (n-2)
     
     x = int(input('Digite seu numero aqui : '))
-    print(f'O fatorial de {x}! é {fatorialDuplo(x)}')
+    print(f'O fatorial de {x}!! é {fatorialDuplo(x)}')
 
 
 elif esc == 3 :
@@ -38,7 +38,7 @@ elif esc == 3 :
             return n * fatorialTripla (n-3)
         
     x = int(input('Digite seu numero aqui : '))
-    print(f'O fatorial de {x}! é {fatorialTripla(x)}')
+    print(f'O fatorial de {x}!!! é {fatorialTripla(x)}')
 
 else :
     print('Erro número não encontrado. Tente novamente!')

@@ -44,3 +44,11 @@ else :
     print('Erro número não encontrado. Tente novamente!')
 
 # Colocar calculadora de fração com uma icognita divindo por partes, k = parte de cima da fração & l = parte de baixo da fração
+
+# from kivy.app import App  
+#from kivy.uix.button import Button  
+#class MeuApp(App):  
+    #def build(self):  
+        #return Button(text='Olá, mundo!')  
+#if __name__ == '__main__':  
+    #MeuApp().run()  

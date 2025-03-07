@@ -32,7 +32,7 @@ elif esc == 2 :
     print(f'O fatorial de {x}! é {fatorialDuplo(x)}')
 
 
-else :
+elif esc == 3 :
 
     def fatorialTripla(n) :
         if n == 0 or n == 1 :
@@ -42,5 +42,8 @@ else :
         
     x = int(input('Digite seu numero aqui : '))
     print(f'O fatorial de {x}! é {fatorialTripla(x)}')
+
+else :
+    print('Erro número não encontrado. Tente novamente!')
 
 # Colocar calculadora de fração com uma icognita divindo por partes, k = parte de cima da fração & l = parte de baixo da fração

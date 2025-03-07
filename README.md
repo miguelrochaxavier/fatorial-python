@@ -1,5 +1,5 @@
 <p aling="center">
-    <h1>Calculadora de Fatorial em Python</h1>
+    <h1>Calculadora de Fatorial em Python e CustomTkinter</h1>
 </p>
 
 <br/>

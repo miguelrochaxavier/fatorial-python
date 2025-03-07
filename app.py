@@ -1,6 +1,4 @@
 from customtkinter import *
-from tkinter import *
-from tkinter import ttk
 from PIL import Image
 
 app = CTk()
@@ -12,7 +10,16 @@ CTkLabel(master=app, text="Calculadora Fatorial com Python e Tkinter", font=("Ar
 stats_frame = CTkFrame(master=app, fg_color="transparent")
 stats_frame.pack( padx=(54, 0), pady=(18, 0), anchor="nw")
 
+def change_handle(value):
+    print(f'Selecionado {value}')
+
+btn = CTkComboBox(master=app, values=['1-Fatorial Simples', '2-Fatorial Dupla', '3-Fatorial Tripla'],)
+btn.place(relx=0.2, rely=0.3, anchor='center')
+
+entry = CTkEntry(master=app, placeholder_text='Escreva aqui...', width=300)
+entry.place(relx=0.33, rely=0.4, anchor='center')
+
 btn = CTkButton(master=app, text='Clique aqui')
-btn.place(relx=0.2, rely=0.8, anchor='center')
+btn.place(relx=0.2, rely=0.5, anchor='center')
 
 app.mainloop()

@@ -42,26 +42,26 @@ elif esc == 3 :
     print(f'O fatorial de {x}!!! é {fatorialTripla(x)}')
 
 elif esc == 4 :
-
-    def somaFatoriaisk(n) :
+    
+    def fatorial(n) :
         if n == 0 or n == 1 :
             return 1
-        else :
-            return n * somaFatoriaisk (n-1)
-        
-    def somaFatoriaiskk(nk) :
-        if nk == 0 or nk == 1 :
+        else : 
+            return n * fatorial (n-1)
+    
+    def fatorialk(n) :
+        if n == 0 or n == 1 :
             return 1
-        else :
-            return nk * somaFatoriaiskk (nk-1)
+        else : 
+            return n * fatorial (n-1)
         
-    def somaTotal(n, nk) :
-        nk + n = nk
-        return nk
+    y = int(input('Digite seu numero aqui : '))
+    x = int(input('Digite seu numero novamente aqui : '))
 
-    x = int(input('Digite seu numero aqui : '))
-    j = int(input('Digite seu numero novamente aqui : '))
-    print(f'O fatorial de {nk}!!! é {somaTotal(nk)}')
+    x = x + y
+
+    print(f'O fatorial de {x}! é {fatorial(x)}')
+    
 
 else :
     print('Erro número não encontrado. Tente novamente!')

@@ -56,10 +56,7 @@ elif esc == 4 :
             return n * fatorial (n-1)
         
     y = int(input('Digite seu numero aqui : '))
-    x = int(input('Digite seu numero novamente aqui : '))
-
-    x = x + y
-
+    x = int(input('Digite seu numero novamente aqui : ')) # ajustar
     print(f'O fatorial de {x}! é {fatorial(x)}')
     
 

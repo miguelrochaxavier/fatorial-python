@@ -10,13 +10,13 @@ def fatorial_number():
         n = int(entry.get())  
         if tipo_fatorial == 1:
             result = fatorial(n)
-            resultado_label.configure(text=f'O fatorial de {n}! é {result}')
+            resultado_label.configure(text=f'O fatorial de {n}! é {result:.2f}')
         elif tipo_fatorial == 2:
             result = fatorialDuplo(n)
-            resultado_label.configure(text=f'O fatorial duplo de {n}!! é {result}')
+            resultado_label.configure(text=f'O fatorial duplo de {n}!! é {result:.2f}')
         elif tipo_fatorial == 3:
             result = fatorialTripla(n)
-            resultado_label.configure(text=f'O fatorial triplo de {n}!!! é {result}')
+            resultado_label.configure(text=f'O fatorial triplo de {n}!!! é {result:.2f}')
         else:
             resultado_label.configure(text='Erro: Tipo de fatorial não encontrado.')
     except ValueError:
